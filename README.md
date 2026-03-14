@@ -14,7 +14,7 @@ This repo also includes a Codex skill copy under [`skills/zotero-bib-sync`](/pro
 - Work on VMs, clusters, remote servers, and CI where Zotero desktop is not available
 - Avoid committing secrets by keeping real credentials in an ignored `.zotero.env`
 
-## What I need from you
+## What this need from you
 
 To wire this into a real paper repo, I need:
 
