@@ -4,6 +4,8 @@ Small standalone toolkit for syncing a Zotero library or collection to a local `
 
 This repo is the non-skill version of the workflow. It is meant to be copied into a normal project or used as a reference when wiring Zotero to `biblatex`/`biber` or BibTeX.
 
+This repo also includes a Codex skill copy under [`skills/zotero-bib-sync`](/projects/p33196/kym9881/zotero-latex-sync/skills/zotero-bib-sync/SKILL.md) so you can use the same workflow either as a plain toolkit repo or as an installable skill.
+
 ## What this does
 
 - Pull a bibliography directly from Zotero's web API
@@ -53,6 +55,17 @@ make pdf-sync
 - `templates/latex/biblatex-snippet.tex`: minimal `biblatex` snippet
 - `docs/setup.md`: full setup walkthrough
 - `docs/troubleshooting.md`: common failure modes and fixes
+- `skills/zotero-bib-sync`: Codex skill version of the same workflow
+
+## Skill version
+
+If you want the Codex skill form, use:
+
+- [`skills/zotero-bib-sync/SKILL.md`](/projects/p33196/kym9881/zotero-latex-sync/skills/zotero-bib-sync/SKILL.md)
+- [`skills/zotero-bib-sync/references/field-guide.md`](/projects/p33196/kym9881/zotero-latex-sync/skills/zotero-bib-sync/references/field-guide.md)
+- [`skills/zotero-bib-sync/scripts/sync_zotero_bib.sh`](/projects/p33196/kym9881/zotero-latex-sync/skills/zotero-bib-sync/scripts/sync_zotero_bib.sh)
+
+The toolkit and the skill are both secret-free. Neither one stores a real `.zotero.env` or an API key.
 
 ## Security
 

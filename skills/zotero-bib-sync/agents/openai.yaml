@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zotero Bib Sync"
+  short_description: "Set up Zotero-to-LaTeX bib sync"
+  default_prompt: "Use $zotero-bib-sync to wire this project to sync a bibliography from Zotero."
