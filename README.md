@@ -126,7 +126,3 @@ If your manuscript already cites keys produced by Better BibTeX, Zotero API expo
 - keep a small compatibility `.bib`
 - migrate the manuscript citekeys
 - pin stable Better BibTeX citekeys on the machine where Zotero desktop runs
-
-## Next step
-
-If you want, I can also turn this into a GitHub repo after you review the local version.
