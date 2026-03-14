@@ -17,6 +17,23 @@ Collection URL patterns:
 - Group collection:
   - `https://www.zotero.org/groups/<group_id>/<group_name>/collections/<collection_key>`
 
+If you are deciding which collection to sync, a good default is one collection per paper or chapter.
+
+Example:
+
+```text
+My Library
+├── mts-525-paper
+├── dissertation-ch2
+└── general-reading
+```
+
+For the `mts-525-paper` manuscript, sync only the `mts-525-paper` collection.
+
+Helpful Zotero docs with screenshots:
+
+- https://www.zotero.org/support/collections_and_tags
+
 ## 2. Copy the toolkit files into your paper repo
 
 Minimum:

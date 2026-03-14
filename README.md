@@ -26,6 +26,46 @@ To wire this into a real paper repo, I need:
 6. The LaTeX entry file and whether the project uses `biblatex`/`biber` or BibTeX
 7. Whether the manuscript already has legacy citekeys that must keep working
 
+## How to choose a collection
+
+Most people use one Zotero collection per writing project.
+
+Good defaults:
+
+- one paper -> one collection
+- one dissertation chapter -> one collection
+- one grant or report -> one collection
+- one course project -> one collection
+
+Why:
+
+- smaller `.bib` files
+- faster sync
+- less clutter in LaTeX autocomplete and bibliography output
+- easier citekey cleanup if something changes
+
+Simple example:
+
+```text
+My Library
+├── MTS 525
+├── llm-panel-paper
+├── dissertation-ch2
+└── general-reading
+```
+
+If you are writing `llm-panel-paper`, sync the `llm-panel-paper` collection, not your whole library.
+
+Rule of thumb:
+
+- use a project collection if the document has a clear boundary
+- use a broader topic collection only if several documents intentionally share one bibliography
+- avoid syncing your whole library unless you really want every reference available in one `.bib`
+
+Official Zotero collections docs with screenshots:
+
+- https://www.zotero.org/support/collections_and_tags
+
 ## Quick start
 
 1. Copy the files you need into your project:
@@ -66,6 +106,12 @@ If you want the Codex skill form, use:
 - [`skills/zotero-bib-sync/scripts/sync_zotero_bib.sh`](/projects/p33196/kym9881/zotero-latex-sync/skills/zotero-bib-sync/scripts/sync_zotero_bib.sh)
 
 The toolkit and the skill are both secret-free. Neither one stores a real `.zotero.env` or an API key.
+
+## Helpful links
+
+- Zotero collections docs: https://www.zotero.org/support/collections_and_tags
+- Zotero Web API basics: https://www.zotero.org/support/dev/web_api/v3/basics
+- Better BibTeX automatic export: https://retorque.re/zotero-better-bibtex/exporting/auto/
 
 ## Security
 
