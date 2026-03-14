@@ -1,0 +1,17 @@
+TEX_FILE := main.tex
+BUILD := ./build_tex.sh
+SYNC := ./scripts/sync_zotero_bib.sh
+
+.PHONY: pdf zotero-sync pdf-sync clean
+
+pdf:
+	$(BUILD) $(TEX_FILE)
+
+zotero-sync:
+	$(SYNC)
+
+pdf-sync:
+	ZOTERO_SYNC=1 $(BUILD) $(TEX_FILE)
+
+clean:
+	$(BUILD) --clean $(TEX_FILE)
